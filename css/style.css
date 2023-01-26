@@ -79,7 +79,7 @@ font-family: 'Oswald', sans-serif;*/
 
 body {
 	font-size:18px;
-	color:#000000;
+	color:grey;
 	line-height:1.8em;
 	font-weight:500;
 	background:#ffffff;
@@ -268,6 +268,7 @@ img{
 	display:inline-block;
 	max-width:100%;
 	height:auto;	
+	
 }
 
 /*** 
@@ -1063,8 +1064,8 @@ img{
 	content:'';
 	left:50%;
 	bottom:0px;
-	width:2px;
 	height:30px;
+	width:2px;
 	opacity:0;
 	margin-left:-1px;
 	background-color:#d5ac63;
@@ -1425,7 +1426,7 @@ img{
 .main-header .sticky-header .main-menu .navigation > li{
 	margin-right:0px;
 	margin-left:30px;
-	padding:20px 7px 10px;
+	padding:20px 0px 10px;
 }
 
 .main-header .sticky-header .main-menu .navigation > li > a{
@@ -1585,7 +1586,7 @@ img{
 }
 
 .sec-title.centered .separator{
-	position:absolute;
+	position:relative;
 	left:50%;
 	top:100%;
 	margin-top:8px;
@@ -3516,8 +3517,7 @@ img{
 
 .gallery-section{
 	position:relative;
-	padding:0px 0px 0px;
-	bottom:48px
+	padding:0px 0px 90px;
 }
 
 .gallery-section.full-width{
@@ -3868,7 +3868,7 @@ img{
 	width:100%;
 	height:100%;
 	display:block;
-	background-color:rgba(0,0,0,0.90);
+	background-color:rgba(1, 0, 0, 0.9);
 }
 
 .default-section-two .video-column{
@@ -6689,7 +6689,7 @@ img{
 
 .project-block-two .inner-box .lower-content{
 	position:relative;
-	padding-top:24px;
+	padding-top:66px;
 	padding-bottom:20px;
 	border-bottom:1px solid #f2f2f2;
 }
@@ -6951,7 +6951,7 @@ img{
 
 .gallery-single-section .inner-container .upper-box .info-column .inner-column{
 	position:relative;
-	padding:28px 35px;
+	padding:0px 35px;
 	background-color:#1d1d1d;
 }
 
@@ -6986,7 +6986,7 @@ img{
 .gallery-single-section .inner-container .upper-box .info-column ul li span:after{
 	position:absolute;
 	content:':';
-	right:10px;
+	right:-3px;
 	top:0px;
 	color:#ffffff;
 	font-size:18px;
@@ -7108,7 +7108,7 @@ img{
 	color:#ffffff;
 	font-weight:400;
 	font-size:30px;
-	padding:10px 12px;
+	padding:0px 12px;
 	display:inline-block;
 	background-color:rgba(255,255,255,0.20);
 }
@@ -7586,8 +7586,8 @@ img{
 }
 
 .special-section .lower-content .form-column{
-	position:relative;
-	top:143px;
+	position:absolute;
+	top:-787px;
 }
 
 .special-section .lower-content .form-column h2{
@@ -7774,7 +7774,7 @@ img{
 
 .price-section{
 	position:relative;
-	padding:80px 0px 120px;
+	padding:4856px 0px 120px;
 }
 
 .price-section .sec-title{
@@ -7784,7 +7784,7 @@ img{
 .price-section .inner-container{
 	position:relative;
 	text-align:center;
-	border:1px solid #f2f2f2;
+	border:1px solid #ffffff;
 }
 
 .price-section .inner-container .price-block{
@@ -9774,3 +9774,5 @@ img{
 .social-links-two .google-plus{
 	background:#dd4b39;	
 }
+
+
